@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react"
 
 const experiences = [
   {
-    company: "TechVision AI",
+    company: "Imerit",
     role: "Senior Data Scientist",
     duration: "2023 — Present",
     description:
@@ -14,7 +14,7 @@ const experiences = [
     link: "#",
   },
   {
-    company: "DataCore Labs",
+    company: "Quonscious",
     role: "Machine Learning Engineer",
     duration: "2021 — 2023",
     description:
@@ -54,9 +54,8 @@ export function Experience() {
       <div className="max-w-6xl mx-auto px-6">
         {/* Section Header */}
         <div
-          className={`mb-16 transition-all duration-700 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
+          className={`mb-16 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
         >
           <p className="text-sm text-accent font-medium tracking-wider uppercase mb-4">
             Experience
@@ -71,9 +70,8 @@ export function Experience() {
           {experiences.map((exp, index) => (
             <div
               key={exp.company}
-              className={`group relative transition-all duration-700 ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-              }`}
+              className={`group relative transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+                }`}
               style={{ transitionDelay: `${200 + index * 150}ms` }}
             >
               <a
