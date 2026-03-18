@@ -73,7 +73,7 @@ export function Footer() {
                 size="lg"
                 className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full px-8 group"
               >
-                <Link href="mailto:hello@sourav.dev">
+                <Link href="mailto:souravkunanda12@gmail.com">
                   Get Started
                   <ArrowUpRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                 </Link>

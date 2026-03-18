@@ -47,7 +47,7 @@ export function Hero() {
   }, [])
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText("souravkunanda19@gmail.com")
+    navigator.clipboard.writeText("souravkunanda12@gmail.com")
   }
 
   return (
@@ -244,7 +244,7 @@ export function Hero() {
             className="inline-flex items-center gap-2 text-sm text-white/38 transition-colors duration-300 hover:text-white/65"
           >
             <Copy size={14} />
-            souravkunanda19@gmail.com
+            souravkunanda12@gmail.com
           </button>
         </div>
       </div>
